@@ -1,0 +1,110 @@
+:root{
+     --col1:  #1e3d59;
+     --col2:#f5f0e1;
+     --col3: #ffc13b;
+     --col4: #2d6290;
+}
+body {
+    background-color: var(--col1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-bottom: 2rem;
+    max-width: 50rem;
+    width: 90vw;
+    min-width: 20rem;
+}
+
+.player {
+    background-color: var(--col1); /* blue-700 */
+    color: var(--col3); /* yellow-500 */
+    font-size: 1.25rem; /* text-xl */
+    font-weight: bold;
+    border-radius: 0.5rem; /* rounded */
+    padding: 1rem 1rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4); /* shadow-lg */
+}
+
+
+.plays-left {
+    width: fit-content;
+    height: fit-content;
+    margin: 1rem auto;
+    background-color: var(--col1); /* blue-700 */
+    color: var(--col2);
+    font-size: 1.25rem; /* text-xl */
+    font-weight: bold;
+    padding: 0.5rem 1rem; /* py-2 px-4 */
+    border-radius: 0.5rem; /* rounded */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4); /* shadow-lg */
+}
+
+.plays-count {
+    color: var(--col3); /* yellow-500 */
+    font-size: 2.25rem; /* text-4xl */
+}
+
+.container {
+    margin: 0 auto;
+    width: 20rem;
+    background-color: var(--col4);
+    padding: 0.5rem; /* p-4 */
+    border-radius: 0.9rem; /* rounded-lg */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4); /* shadow-2xl */
+    margin-bottom: 2rem; /* mb-8 */
+}
+.flex-item-container{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem; 
+    justify-content: space-evenly;
+}
+.flex-item {
+    width: 7rem; /* w-20 */
+    height: 7rem; /* h-20 */
+    border-radius: 12%;
+    background-color: var(--col1);
+    border: 2px solid var(--col2);
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    color: var(--col2);
+    font-size: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.flex-item:hover {
+    transition: background-color 0.5s ease, width 0.5s ease,height 0.5s ease;
+    
+    background-color: var(--col4); 
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4); /* shadow-2xl */
+    width: 7.2rem;
+    height: 7.2rem;
+  }
+
+.reset-button {
+    background-color: var(--col4); /* bg-orange-500 */
+    color: var(--col2);
+    font-size: 1.125rem; /* text-lg */
+    font-weight: bold;
+    padding: 0.5rem 1.5rem; /* py-2 px-6 */
+    border-radius: 0.5rem; /* rounded */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* shadow-lg */
+}
+
+.hidden{
+    display: none;
+}

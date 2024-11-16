@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="text-center">
+        <div class="plays-left">
+            Plays Left
+            <div class="plays-count" id="trials">2</div>
+        </div>
+        <div class="scoreboard">
+            <div class="player player1" id="playerX_score">
+                X : 0
+            </div>
+            <div class="player player2" id="playerO_score">
+                O : 0
+            </div>
+        </div>
+        <div class="container">
+            <div class="flex-item-container">
+                <div class="flex-item" onclick="displayLetter(event)" data-number="0"></div>
+                <div class="flex-item" onclick="displayLetter(event)" data-number="1"></div>
+                <div class="flex-item" onclick="displayLetter(event)" data-number="2"></div>
+            </div>
+            <div class="flex-item-container">
+                <div class="flex-item" onclick="displayLetter(event)" data-number="3"></div>
+                <div class="flex-item" onclick="displayLetter(event)" data-number="4"></div>
+                <div class="flex-item" onclick="displayLetter(event)" data-number="5"></div>
+            </div>
+            <div class="flex-item-container">
+                <div class="flex-item" onclick="displayLetter(event)" data-number="6"> </div>
+                <div class="flex-item" onclick="displayLetter(event)" data-number="7"></div>
+                <div class="flex-item" onclick="displayLetter(event)" data-number="8"></div>
+            </div>
+        </div>
+        <button class="reset-button" onclick="reset()" id="reset">
+            Reset
+        </button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
