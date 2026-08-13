@@ -14,7 +14,7 @@
 I'm a Frontend Developer based in Lagos, Nigeria, currently studying Computer Science at the University of Ibadan. I enjoy turning detailed designs into pixel-perfect, responsive interfaces, and I'm steadily building toward full-stack development through hands-on projects.
 
 - 🔭 Currently working on frontend features and stability improvements at **Sheda House**
-- 🌱 Growing my backend skills with **FastAPI**, **NestJS**, and **PostgreSQL**
+- 🌱 Growing my backend skills with, **NestJS**, and **PostgreSQL**
 - 🥋 Competitive Judo athlete and Team Captain (University of Ibadan) — 3x NUGA Medalist (2025)
 - 🎸 Off-screen: guitar, thriller films/books, fine art, and traveling
 
@@ -53,8 +53,5 @@ I'm a Frontend Developer based in Lagos, Nigeria, currently studying Computer Sc
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bojdavid&show_icons=true&theme=default&hide_title=false" alt="Olajide's GitHub stats" />
-</p>
 
 <p align="center"><i>Thanks for stopping by — feel free to explore my repos or reach out!</i></p>
