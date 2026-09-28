@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Olajide Bello (BOJ) 👋</h1>
-<h3 align="center">Frontend Developer | Building clean, production-ready interfaces</h3>
+<h3 align="center">Fullstack Developer | Building clean, production-ready interfaces</h3>
 
 <p align="center">
   <a href="mailto:jide.bello15@gmail.com"><img src="https://img.shields.io/badge/Email-jide.bello15%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" /></a>
@@ -11,7 +11,7 @@
 
 ### About Me
 
-I'm a Frontend Developer based in Lagos, Nigeria, currently studying Computer Science at the University of Ibadan. I enjoy turning detailed designs into pixel-perfect, responsive interfaces, and I'm steadily building toward full-stack development through hands-on projects.
+I'm a Fullstack Developer based in Lagos, Nigeria, currently studying Computer Science at the University of Ibadan. I enjoy turning detailed designs into pixel-perfect, responsive interfaces, and I'm steadily building toward full-stack development through hands-on projects.
 
 - 🔭 Currently working on frontend features and stability improvements at **Sheda House**
 - 🌱 Growing my backend skills with, **NestJS**, and **PostgreSQL**
